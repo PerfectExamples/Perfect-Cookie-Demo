@@ -63,7 +63,7 @@ swift package generate-xcodeproj
 ```
 
 * 打开 `Perfect-Cookie-Demo.xcodeproj`
-* * 在"Library Search Paths"下的"Project Settings"中添加`$(PROJECT_DIR)`, recursive. **(这一步将不需要在更高版本的Xcode 8中做)**
+* * 在"Library Search Paths"下的"Project Settings"中添加`$(PROJECT_DIR)`并且⚠️配置为⚠️递归形式“recursive” **(这一步将不需要在更高版本的Xcode 8中做)**
 * 在Xcode的构建目标下拉来选择可执行文件
 * 在Xcode中使用(cmd-R)命令来编译运行项目工程
 
