@@ -74,7 +74,7 @@ routes.add(method: .get, uri: "/set", handler: {
 	// This is the cookie object
 	// Note that the name has no spaces... spaces are not a good thing in a cookie's name.
 	// This cookie is set to expire in 60 seconds if left idle. The timer would be reset if the route is visited again
-	var iLoveMyCookie = HTTPCookie(
+	let iLoveMyCookie = HTTPCookie(
 		name: "PerfectCookie",
 		value: "Perfect is awesome",
 		domain: "localhost",
